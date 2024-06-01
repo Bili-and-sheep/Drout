@@ -3,9 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/toilet.png" type="image/x-icon">
+    <title>Drout</title>
 </head>
 <body>
-    
+    <img src="./img/toilet.png" class="skibidu" alt="toilet img" onclick="playSound() ">
+    <script>
+        function playSound() {
+            var audio = new Audio('./sound/toiletFlush.mp3');
+            audio.play();
+        }
+    </script>
 </body>
 </html>
